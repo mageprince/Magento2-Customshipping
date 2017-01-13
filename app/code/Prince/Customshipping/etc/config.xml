@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <example>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Prince\Customshipping\Model\Carrier\Example</model>
+                <name>Prince Example Shipping</name>
+                <price>15.00</price>
+                <title>Prince Example</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is not available.</specificerrmsg>
+            </example>
+        </carriers>
+    </default>
+</config>
